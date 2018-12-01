@@ -1,0 +1,18 @@
+{
+  "name": "teachat",
+  "version": "1.0.0",
+  "description": "Teachat powered by AWS Amplify",
+  "dependencies": {
+    "aws-amplify": "^1.1.10"
+  },
+  "devDependencies": {
+    "webpack": "^4.17.1",
+    "webpack-cli": "^3.1.0",
+    "copy-webpack-plugin": "^4.5.2",
+    "webpack-dev-server": "^3.1.5"
+  },
+  "scripts": {
+    "start": "webpack && webpack-dev-server --mode development",
+    "build": "webpack"
+  }
+}

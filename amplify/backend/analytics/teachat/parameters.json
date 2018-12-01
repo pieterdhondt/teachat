@@ -1,0 +1,11 @@
+{
+    "appName": "teachat",
+    "roleName": "pinpointLambdaRolef195ed0b",
+    "cloudWatchPolicyName": "cloudWatchPolicyf195ed0b",
+    "pinpointPolicyName": "pinpointPolicyf195ed0b",
+    "authPolicyName": "pinpoint_amplify_f195ed0b",
+    "unauthPolicyName": "pinpoint_amplify_f195ed0b",
+    "authRoleName": "teachat-20181130120842-authRole",
+    "unauthRoleName": "teachat-20181130120842-unauthRole",
+    "IAMPrefix": "274590425629"
+}

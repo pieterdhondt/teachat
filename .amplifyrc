@@ -1,0 +1,14 @@
+{
+    "providers": {
+        "awscloudformation": {
+            "AuthRoleName": "teachat-20181130120842-authRole",
+            "UnauthRoleArn": "arn:aws:iam::274590425629:role/teachat-20181130120842-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::274590425629:role/teachat-20181130120842-authRole",
+            "Region": "eu-west-1",
+            "DeploymentBucketName": "teachat-20181130120842-deployment",
+            "UnauthRoleName": "teachat-20181130120842-unauthRole",
+            "StackName": "teachat-20181130120842",
+            "StackId": "arn:aws:cloudformation:eu-west-1:274590425629:stack/teachat-20181130120842/4c638a60-f490-11e8-9ba1-064aa725f74e"
+        }
+    }
+}

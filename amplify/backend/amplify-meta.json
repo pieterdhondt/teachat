@@ -1,0 +1,65 @@
+{
+	"providers": {
+		"awscloudformation": {
+			"AuthRoleName": "teachat-20181130120842-authRole",
+			"UnauthRoleArn": "arn:aws:iam::274590425629:role/teachat-20181130120842-unauthRole",
+			"AuthRoleArn": "arn:aws:iam::274590425629:role/teachat-20181130120842-authRole",
+			"Region": "eu-west-1",
+			"DeploymentBucketName": "teachat-20181130120842-deployment",
+			"UnauthRoleName": "teachat-20181130120842-unauthRole",
+			"StackName": "teachat-20181130120842",
+			"StackId": "arn:aws:cloudformation:eu-west-1:274590425629:stack/teachat-20181130120842/4c638a60-f490-11e8-9ba1-064aa725f74e"
+		}
+	},
+	"auth": {
+		"cognitob14ca057": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/teachat-20181130120842-deployment/amplify-cfn-templates/auth/cognitob14ca057-cloudformation-template.yml",
+				"logicalId": "authcognitob14ca057"
+			},
+			"lastPushTimeStamp": "2018-11-30T11:17:52.145Z",
+			"output": {
+				"IdentityPoolId": "eu-west-1:c75c67cc-19ae-4478-a9d5-8ff8b87c87c8",
+				"IdentityPoolName": "teachat_identitypool_77973ec1"
+			},
+			"lastPushDirHash": "/2N162wlkXbJEDGj5BCs0G9UXwk="
+		}
+	},
+	"analytics": {
+		"teachat": {
+			"service": "Pinpoint",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/teachat-20181130120842-deployment/amplify-cfn-templates/analytics/pinpoint-cloudformation-template.json",
+				"logicalId": "analyticsteachat"
+			},
+			"lastPushTimeStamp": "2018-11-30T11:17:52.148Z",
+			"output": {
+				"appName": "teachat",
+				"Region": "us-east-1",
+				"Id": "75045c404180410fa527f0e0fa3099ce"
+			},
+			"lastPushDirHash": "AWJtEPWZzZPwR897Pbg5BpevfZQ="
+		}
+	},
+	"hosting": {
+		"S3AndCloudFront": {
+			"service": "S3AndCloudFront",
+			"providerPlugin": "awscloudformation",
+			"providerMetadata": {
+				"s3TemplateURL": "https://s3.amazonaws.com/teachat-20181130120842-deployment/amplify-cfn-templates/hosting/template.json",
+				"logicalId": "hostingS3AndCloudFront"
+			},
+			"lastPushTimeStamp": "2018-11-30T11:17:52.151Z",
+			"output": {
+				"S3BucketSecureURL": "https://teachat-20181130121615--hostingbucket.s3.amazonaws.com",
+				"WebsiteURL": "http://teachat-20181130121615--hostingbucket.s3-website-eu-west-1.amazonaws.com",
+				"Region": "eu-west-1",
+				"HostingBucketName": "teachat-20181130121615--hostingbucket"
+			},
+			"lastPushDirHash": "tzvuVq2NjxZsjW/wfmW4T5sZfTs="
+		}
+	}
+}
